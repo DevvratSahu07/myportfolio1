@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: my-portfolio
+    env: node
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
